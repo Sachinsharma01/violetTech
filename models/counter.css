@@ -1,0 +1,41 @@
+.counter
+{
+    background-color: #fff;
+    text-align: center;
+}
+.employees,.customer,.design,.courses   
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #34495e;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    transition: .5s ease-in-out;
+}
+.counter-count:hover {
+    transform: translate(1.25);
+    background: violet;
+    border: 2px solid #34495e;
+    cursor: pointer;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}

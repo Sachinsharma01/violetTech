@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: monospace;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+}
+label.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    border: 1px solid violet;
+    transition: .5s;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content{
+  text-align: center;
+  font: 500;
+  font-style: normal;
+  
+  color: black;
+}
+
+
+footer{
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background: #34495e;
+
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #34495e;
+
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: violet;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: #34495e;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: violet;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #34495e;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: violet;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+    background: #34495e;
+  padding-left: 10px;
+  border: 1px solid #34495e;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: violet;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+.right form .btn button:hover{
+    background: #34495e;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+    background: #34495e;
+  
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: violet;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+.intro {
+    margin: 5% 10% 10% 10%;
+    font-style: monospace;
+    text-align: center;
+}
+.para {
+    font-weight: 800;
+    font-size: 20px;
+    color: #34495e;
+    font-family: monospace;
+    text-align: center;
+}
+.start-btn,.join-btn {
+    font-family: monospace;
+    font-weight: bold;
+    background: #34495e;
+    height: 50px;
+    padding-top: 5px;
+    margin: 10px;
+    border: 1px solid violet;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.join-btn {
+    width: 100px;
+}
+.start-btn:hover {
+    transform: scale(1.25);
+    border: 3px solid violet;
+    background: violet;
+    
+}
+.join-btn:hover {
+    transform: scale(1.25);
+    background: violet;
+    border: 3px solid violet;
+}
+
+.price{
+    border: 1px solid violet;
+}
